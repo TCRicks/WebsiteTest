@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crowdfunding for Robotics</title>
+  </head>
+  <body>
+    <header>
+      <h1>Crowdfunding for Robotics</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Featured Project: Swerve Drive</h2>
+      <p>Our latest project is a swerve drive for our robot that will improve its mobility and performance. We need your help to make it happen!</p>
+      <section>
+        <h3>Project Details</h3>
+        <ul>
+          <li>Goal: $10,000</li>
+          <li>Funding Period: 30 days</li>
+          <li>Reward Tiers:
+            <ul>
+              <li>$10: Personalized Thank You Note</li>
+              <li>$50: Swag Bag (T-shirt, Sticker, Mug)</li>
+              <li>$100: VIP Access to Robot Competition</li>
+            </ul>
+          </li>
+        </ul>
+        <form action="#" method="post">
+          <label for="donation-amount">Enter Donation Amount:</label>
+          <input type="text" id="donation-amount" name="donation-amount">
+          <input type="submit" value="Donate Now">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Crowdfunding for Robotics</p>
+    </footer>
+  </body>
+</html>
